@@ -1,0 +1,22 @@
+.generate,
+.guess {
+  width: 100px;
+}
+.btn {
+  color: black;
+  border-radius: 8px;
+  height: 23px;
+  background-color: lightgray;
+  margin-left: 3px;
+}
+.h2,
+.p {
+  display: flex;
+  align-items: center;
+}
+.hidden {
+  display: none;
+}
+#greeting2 {
+  font-weight: bold;
+}
