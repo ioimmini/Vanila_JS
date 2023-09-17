@@ -1,21 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Todo List</title>
 </head>
+
 <body>
-    <form id="todo-form">
-        <input type="text" placeholder="Write a To Do and Press Enter." required />
-    </form>
-    <ul id="todo-list"></ul>
+    <h1 class="clock">00:00:00</h1>
     <div id="weather">
         <span></span>
         <span></span>
     </div>
+    <div>
+        <form id="login-form">
+            <input type="text" placeholder="Write your name." required />
+        </form>
+    </div>
+    <div class="hidden" id="greeting">
+        <h2 class="todo"></h2>
+        <form id="todo-form">
+            <input type="text" placeholder="Write a To Do and Press Enter." required />
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
 </body>
+<script src="login.js"></script>
+<script src="clock.js"></script>
 <script src="todo.js"></script>
 <script src="weather.js"></script>
+<script src="background.js"></script>
+
 </html>

@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    block-size: border-box;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+}
+#hidden {
+    display: none;
+}
+h1.clock, #weather {
+    color: #fff;
+    text-align: center;
+}
+.clock{
+    font-size: 3.0rem;
+    margin-top: 50px
+}
+#weather {
+    margin-bottom: 50px;
+}
+.todo {
+    text-align: center;
+    color: #fff;
+}
+#todo-form, #login-form  {
+    display: flex;
+    justify-content: center; 
+
+}
+#todo-form input, #login-form input{
+    display: block;
+    margin: 17px;
+    width: 380px;
+    height: 38px;
+    padding: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    outline: none;
+    border:1px solid white; 
+    background-color:transparent;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+#todo-form input::placeholder, #login-form input::placeholder{
+    color: transparent;
+}
+#todo-form input:focus::placeholder, #login-form input:focus::placeholder{
+    color: #e4e4e4;
+    font-weight: 500;
+    letter-spacing: -0.4px;
+}
+#todo-list li{
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    color: #Fff;
+    margin: 10px;
+}
+#todo-list button {
+    margin-left: 10px;
+    background-color : transparent;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+}
+#todo-list button:hover{
+    cursor: pointer;
+}
