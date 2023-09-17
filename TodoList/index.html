@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./img/icons8-favorite-64 (1).png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
@@ -17,18 +18,19 @@
         <span></span>
         <span></span>
     </div>
-    <div>
-        <form id="login-form">
+    <div class="login">
+        <form class="hidden" id="login-form">
             <input type="text" placeholder="Write your name." required />
         </form>
     </div>
-    <div class="hidden" id="greeting">
+    <div class="do">
         <h2 class="todo"></h2>
         <form id="todo-form">
             <input type="text" placeholder="Write a To Do and Press Enter." required />
         </form>
         <ul id="todo-list"></ul>
     </div>
+
 </body>
 <script src="login.js"></script>
 <script src="clock.js"></script>
