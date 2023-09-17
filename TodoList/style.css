@@ -3,6 +3,8 @@
     padding: 0;
     block-size: border-box;
     list-style: none;
+    font-family: 'Roboto Slab', serif;
+
 }
 body{
     font-family: 'Roboto Slab', serif;
@@ -29,6 +31,18 @@ h1.clock, #weather {
     display: flex;
     flex-direction: column;
     align-items: center;
+} 
+.logout {
+    width: 100px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color:transparent;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.logout:hover {
+    cursor: pointer;
 }
 #todo-form input, #login-form input{
     display: block;
